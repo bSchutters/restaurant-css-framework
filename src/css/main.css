@@ -100,6 +100,13 @@
   animation: FadeInRight 700ms ease 1;
 }
 
+.hide {
+  opacity: 0;
+  transform: translateX(15px);
+  transition: all 0.4s ease-in-out;
+  visibility: hidden;
+}
+
 @keyframes FadeInRight {
   0% {
     transform: translateX(-15px);
@@ -109,5 +116,17 @@
   100% {
     transform: translateX(0px);
     opacity: 1;
+  }
+}
+
+@keyframes FadeOutRight {
+  0% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(15px);
+    opacity: 0;
   }
 }
