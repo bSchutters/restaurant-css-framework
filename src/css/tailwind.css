@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Ranade-Regular";
+  src: url("../assets/fonts/Ranade/Ranade-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Ranade/Ranade-Regular.woff") format("woff"),
+    url("../assets/fonts/Ranade/Ranade-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ranade-Medium";
+  src: url("../assets/fonts/Ranade/Ranade-Medium.woff2") format("woff2"),
+    url("../assets/fonts/Ranade/Ranade-Medium.woff") format("woff"),
+    url("../assets/fonts/Ranade/Ranade-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ranade-Bold";
+  src: url("../assets/fonts/Ranade/Ranade-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Ranade/Ranade-Bold.woff") format("woff"),
+    url("../assets/fonts/Ranade/Ranade-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stardom";
+  src: url("../assets/fonts/Stardom/Stardom-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Stardom/Stardom-Regular.woff") format("woff"),
+    url("../assets/fonts/Stardom/Stardom-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}

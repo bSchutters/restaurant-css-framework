@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-css-framework",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "host": "vite --host",
+    "prebuild": "pnpm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "gh-pages": "^6.0.0",
+    "postcss": "^8.4.31",
+    "sass": "^1.69.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.11"
+  }
+}
