@@ -9,21 +9,20 @@
       rel="stylesheet"
     />
     <title>Le Cristal | Restaurant</title>
-    <script type="module" crossorigin src="/restaurant-css-framework/assets/main-508621f9.js"></script>
-    <link rel="stylesheet" href="/restaurant-css-framework/assets/main-5adaa578.css">
+    <script type="module" crossorigin src="/restaurant-css-framework/assets/main-a633051b.js"></script>
+    <link rel="stylesheet" href="/restaurant-css-framework/assets/main-c0f1a81c.css">
   </head>
   <body class="bg-light-prim">
     <!-- COOKIES -->
 
     <div
-      id="cookies-desktop"
-      class="bg-secondary p-10 w-[500px] font-Ranade-Regular bottom-5 right-5 fixed flex justify-between items-center z-30 sm:hidden lg:flex"
+      id="pop-cookies-desk"
+      class="bg-secondary p-10 w-[500px] font-Ranade-Regular bottom-5 right-5 fixed justify-between items-center z-30 hidden lg:flex"
     >
       <p class="text-sm w-2/3 text-dark-prim">
         This website uses cookies to ensure you get the best experience on our
         website.
         <a
-          id="test"
           class="text-light-prim underline underline-offset-4"
           href="#"
           rel="noopener noreferrer"
@@ -31,9 +30,30 @@
         >
       </p>
       <button
-        onclick="hide()"
-        id="btn-test"
-        class="py-2 px-4 border-2 font-Ranade-Medium text-sm border-dark-prim hover:bg-dark-prim hover:text-light-prim hover:cursor-pointer"
+        id="btn-cookies-desk"
+        class="transition py-2 px-4 border-2 font-Ranade-Medium text-sm border-dark-prim hover:bg-dark-prim hover:text-light-prim hover:cursor-pointer"
+      >
+        Got it
+      </button>
+    </div>
+
+    <div
+      id="pop-cookies-mobile"
+      class="fixed bg-secondary bottom-0 p-5 z-30 flex justify-between items-center w-full lg:hidden"
+    >
+      <p class="text-sm w-3/4 text-dark-prim">
+        This website uses cookies to ensure you get the best experience on our
+        website.
+        <a
+          class="text-light-prim underline underline-offset-4"
+          href="#"
+          rel="noopener noreferrer"
+          >Learn more</a
+        >
+      </p>
+      <button
+        id="btn-cookies-mobile"
+        class="transition py-2 px-4 border-2 font-Ranade-Medium text-sm border-dark-prim hover:bg-dark-prim hover:text-light-prim hover:cursor-pointer"
       >
         Got it
       </button>
@@ -185,7 +205,7 @@
           <a
             href="./menu/"
             id="menubtn"
-            class="py-4 px-8 border-2 font-Ranade-Regular border-light-prim hover:bg-light-prim hover:text-dark-prim"
+            class="transition py-4 px-8 border-2 font-Ranade-Regular border-light-prim hover:bg-light-prim hover:text-dark-prim"
           >
             Menu
           </a>
