@@ -2,12 +2,25 @@ import "/css/main.css";
 import "/css/reset.css";
 import "/css/tailwind.css";
 
+// COOKIES DESKTOP
+
 const btnCookiesDesk = document.getElementById("btn-cookies-desk");
 const popCookiesDesk = document.getElementById("pop-cookies-desk");
 
 if (btnCookiesDesk) {
   btnCookiesDesk.onclick = function () {
     popCookiesDesk.classList.add("hide");
+  };
+}
+
+// COOKIES MOBILE
+
+const btnCookiesMobile = document.getElementById("btn-cookies-mobile");
+const popCookiesMobile = document.getElementById("pop-cookies-mobile");
+
+if (btnCookiesMobile) {
+  btnCookiesMobile.onclick = function () {
+    popCookiesMobile.classList.add("hide-mobile");
   };
 }
 
